@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Education{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background:  #120122;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 204, 0);
+}
+
+.detial{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detial h1{ 
+    
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+
+
+.detial h2{ 
+    padding-top: 5%;
+    text-align: right;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-style: italic;
+    right: 20%;
+    position: absolute;
+    
+}
+
+.detial h3{ 
+    padding-top: 15%;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.detial h1:hover{
+    color: rgb(255, 204, 0);
+}
+
+.detial h2:hover{
+    color: aqua;
+}
+
+.detial h3:hover{
+    color: rgb(255, 204, 0);
+}
+
+/*.detial img{
+    
+    width: 10%;
+    height: 20%;
+right: 50px;
+
+}*/
